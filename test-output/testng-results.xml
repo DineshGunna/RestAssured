@@ -2,23 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13205" started-at="2020-07-15T14:05:02 IST" finished-at="2020-07-15T14:05:15 IST">
+  <suite name="Default suite" duration-ms="54737" started-at="2020-07-20T12:36:22 IST" finished-at="2020-07-20T12:37:17 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13205" started-at="2020-07-15T14:05:02 IST" finished-at="2020-07-15T14:05:15 IST">
-      <class name="dataDrivenTesting.Tests_Delete">
-        <test-method status="PASS" signature="test_DeleteParameter(int)[pri:0, instance:dataDrivenTesting.Tests_Delete@a7e666]" name="test_DeleteParameter" duration-ms="13065" started-at="2020-07-15T14:05:02 IST" finished-at="2020-07-15T14:05:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="54737" started-at="2020-07-20T12:36:22 IST" finished-at="2020-07-20T12:37:17 IST">
+      <class name="jsonschema.JSONSchemaValidator">
+        <test-method status="PASS" signature="jsonSchemaValidator()[pri:0, instance:jsonschema.JSONSchemaValidator@3b088d51]" name="jsonSchemaValidator" duration-ms="54365" started-at="2020-07-20T12:36:23 IST" finished-at="2020-07-20T12:37:17 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_DeleteParameter -->
-      </class> <!-- dataDrivenTesting.Tests_Delete -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- jsonSchemaValidator -->
+      </class> <!-- jsonschema.JSONSchemaValidator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
